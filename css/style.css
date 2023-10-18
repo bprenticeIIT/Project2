@@ -63,7 +63,14 @@ img {
   margin: 20px 0;
 }
 
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #garden-center-img {
+  float: right;
   word-wrap: break-word;
 }
 
