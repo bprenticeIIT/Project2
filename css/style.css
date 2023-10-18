@@ -69,8 +69,11 @@ img {
   align-items: center;
 }
 
-#garden-center-img {
+.image-wrap {
   float: right;
+  margin-right: 10px;
+  max-width: 100%;
+  max-height: auto;
   word-wrap: break-word;
 }
 
