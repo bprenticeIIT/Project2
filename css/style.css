@@ -1,0 +1,73 @@
+/* CSS Reset */
+body, h1, h2, p, ul, li, img, iframe {
+  margin: 0;
+  padding: 0;
+}
+
+/* Universal styles for all pages */
+body {
+  font-family: Arial, sans-serif; /* Browser native font */
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+iframe {
+  max-width: 100%;
+  width: 560px;
+  display: block;
+  margin: 0 auto; /* Center the iframe horizontally */
+}
