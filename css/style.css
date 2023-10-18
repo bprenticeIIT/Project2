@@ -69,12 +69,15 @@ img {
   align-items: center;
 }
 
-.image-wrap img{
+.image-wrap {
+  overflow: auto;
+}
+
+.image-container{
   float: right;
   margin-right: 10px;
   max-width: 100%;
   max-height: auto;
-  word-wrap: break-word;
 }
 
 iframe {
