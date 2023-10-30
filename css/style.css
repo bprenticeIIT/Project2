@@ -69,6 +69,10 @@ img {
   align-items: center;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .image-wrap {
   overflow: auto;
 }
