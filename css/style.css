@@ -71,8 +71,8 @@ p {
 
 ul {
   list-style: disc;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 li {
@@ -108,6 +108,9 @@ img {
   max-height: auto;
 }
 
+.margin-bottom {
+    margin-bottom: 20px;
+}
 iframe {
   max-width: 100%;
   width: 560px;
